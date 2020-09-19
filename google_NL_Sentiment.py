@@ -7,7 +7,7 @@ import base64
 
 while True:
     AuthoID=input("\033[1;33;40m Please input your autho ID \033[0m \n")
-    f_open=input("\033[1;33;40m Please input the doc name with the content you want to analysis the emotion \033[0m \n")
+    f_open=input("\033[1;33;40m Please input the doc name with the content you want to analyze the emotion \033[0m \n")
     file_t=open('./'+f_open,'r+')
     file_tt=file_t.readline()
 
